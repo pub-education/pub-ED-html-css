@@ -1,0 +1,54 @@
+main>section>p,
+main>section>article {
+    border-left: 3px solid skyblue;
+    margin-top: 2rem;
+}
+
+main>section h2,
+main>section>p,
+article {
+    padding-left: 1rem;
+}
+
+main>section:first-child figure {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+main>section:first-child figure::after {
+    content: "Place holder image from lorempixel.com";
+    padding-left: 1rem;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: steelblue;
+    text-decoration: tan wavy underline overline;
+    vertical-align: top;
+}
+
+main>section:first-child figure>img {
+    padding: 0.5rem;
+    box-shadow: skyblue 2px 2px;
+    min-height: 2rem;
+    min-width: 2rem;
+}
+
+.mid-crisis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3rem;
+}
+
+.mid-crisis article:first-child {
+    margin-right: 0.5rem;
+}
+
+.mid-crisis article:first-child p:last-child {
+    font-weight: 700;
+    color: blue;
+    padding-top: 1rem;
+}
+
+.mid-crisis article:last-child {
+    margin-left: 0.5rem
+}

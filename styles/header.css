@@ -1,0 +1,59 @@
+.page_content>header {
+    background: linear-gradient(skyblue, whitesmoke);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.page_content>header:first-child {
+    align-items: center;
+    color: navy;
+}
+
+.page_content>header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.page_content>header figure {
+    max-width: 20%;
+}
+
+.page_content>header ul {
+    padding-left: 2rem;
+}
+
+.page_content>header li {
+    display: inline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+
+}
+
+.page_content>header nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+    transition: 1s;
+}
+
+.page_content>header nav a:hover {
+    color: red;
+    transition: 1s;
+}
+
+.blinker:hover {
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}

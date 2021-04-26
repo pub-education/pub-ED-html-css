@@ -1,0 +1,11 @@
+@import "/styles/reset.css";
+@import "/styles/outline.css";
+@import "/styles/header.css";
+@import "/styles/main-page.css";
+@import "/styles/footer.css";
+@import "/styles/animation.css";
+@import "/styles/right-side.css";
+
+html {
+    font-family: sans-serif;
+}

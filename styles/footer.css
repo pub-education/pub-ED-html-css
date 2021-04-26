@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    min-height: 60px;
+    width: 100%;
+    border: 0px;
+    color: royalblue;
+    background: linear-gradient(whitesmoke, skyblue);
+}
